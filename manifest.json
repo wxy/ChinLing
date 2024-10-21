@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "ChinLing",
+  "version": "0.0.1",
+  "description": "ChinLing is a Chrome extension that uses AI to enhance your browsing experience.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "assets/ChinLing.png",
+      "48": "assets/ChinLing.png",
+      "128": "assets/ChinLing.png"
+    }
+  },
+  "icons": {
+    "16": "assets/ChinLing.png",
+    "48": "assets/ChinLing.png",
+    "128": "assets/ChinLing.png"
+  }
+}
